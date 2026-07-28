@@ -19,4 +19,4 @@ A simple to-do list application built using HTML, CSS and JavaScript.
 
 1. Download or clone this repository
 2. Open `index.html` in your browser
-3. Start adding tasks!
+3. Start adding tasks!!
