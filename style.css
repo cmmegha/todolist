@@ -90,3 +90,10 @@ li button {
 li button:hover {
     background: #cc0000;
 }
+#taskCount {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #555;
+}
