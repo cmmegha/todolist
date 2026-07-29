@@ -36,6 +36,8 @@ function addTask() {
 function displayTasks() {
 
     taskList.innerHTML = "";
+    document.getElementById("taskCount").textContent =
+    `Total Tasks: ${tasks.length}`;
 
     tasks.forEach((task, index) => {
 
