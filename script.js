@@ -7,6 +7,11 @@ let tasks = JSON.parse(localStorage.getItem("tasks")) || [];
 displayTasks();
 
 addBtn.addEventListener("click", addTask);
+input.addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});
 
 
 function addTask() {
